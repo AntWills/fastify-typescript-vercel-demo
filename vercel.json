@@ -4,8 +4,5 @@
       "source": "/(.*)",
       "destination": "./serverless.js"
     }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "dist/serverless.js" }
   ]
 }
