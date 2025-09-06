@@ -1,14 +1,8 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "version": 2,
-  "builds": [
-    {
-      "src": "dist/serverless.js",
-      "use": "@vercel/node",
-      "installCommand": "npm install",
-      "buildCommand": "npm build"
-    }
-  ],
-
+  "installCommand": "npm install",
+  "buildCommand": "npm build",
   "rewrites": [
     {
       "source": "/(.*)",
