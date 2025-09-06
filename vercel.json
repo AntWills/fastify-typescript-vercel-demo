@@ -2,7 +2,10 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/dist/serverless.js"
+      "destination": "./serverless.js"
     }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "dist/serverless.js" }
   ]
 }
